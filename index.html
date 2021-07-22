@@ -16,9 +16,9 @@
     
 
 </head>
-<body class="bg-dark">
+<body class="bg-light">
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
           <img src="images/logo.png" alt=""  class="d-inline-block align-text-top">
           
@@ -31,13 +31,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Shoes</a>
+                <a class="nav-link" href="#shoes">Shoes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Jackets</a>
+                <a class="nav-link" href="#bags">Bags</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#joinus">Join Us</a>
               </li>
               
             </ul>
@@ -143,8 +143,8 @@
           
         </div>
       </div>
-      <section class="container mt-5">
-        <h1>Shoes</h1>
+      <section class="container mt-5 " id="shoes">
+        <h1 >Shoes</h1>
         <br>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
@@ -186,8 +186,8 @@
         </div>
       </section>
 
-      <section class="container mt-5">
-        <h1>Bags</h1>
+      <section class="container mt-5" id="bags">
+        <h1 >Bags</h1>
         <br>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
@@ -228,7 +228,21 @@
           </div>
         </div>
       </section>
+
+      <section style="height:300px" class="container my-5 d-flex align-items-center justify-content-center bg-info" id="joinus">
+        <div>
+          <h1>Let's Stay in Touch.</h1>
+          <p>Get updates on sales,specials and more.</p>
+          <input type="text" placeholder="Your email">
+          <br><br>
+          <button class="btn btn-warning">Submit</button>
+        </div>
+      </section>
     </main>
+
+    <footer class="d-flex my-3 align-items-center justify-content-center">
+      <small>All &copy; copyright reserved by Aehtesham Reshad.</small>
+    </footer>
 
 
 
